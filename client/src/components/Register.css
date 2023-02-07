@@ -1,0 +1,55 @@
+.register-container{
+    padding: 20px;
+    height: 250px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+    color: slateblue;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    font-weight:bold;
+}
+
+.Register{
+    padding: 6px;
+    color:black;
+    border-radius: 10px;
+    border-color: #fff;
+    background: tomato;
+    cursor: pointer;
+}
+
+.success{
+    font-size: 12px;
+    color: green;
+    text-align: center;
+}
+
+.fail{
+    font-size: 12px;
+    color: red;
+    text-align: center;
+}
+
+.cancel{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    color:red;
+}

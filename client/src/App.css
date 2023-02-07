@@ -1,0 +1,92 @@
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 250px;
+    height: 250px;
+}
+
+label{
+    color: tomato;
+    font-size: 13px;
+    border-bottom: 1px solid tomato;
+    margin: 3px 0;
+    width: max-content;
+}
+
+.place{
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+font-size: 14px;
+    
+}
+
+.desc{
+    font-size: 13px;
+}
+
+.star{
+    color: gold;
+}
+
+.username{
+    font-size: 14px;
+}
+.date{
+    font-size: 12px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    height: 250px;
+}
+
+.input,textarea{
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+input::placeholder,textarea::placeholder{
+    font-size: 12px;
+    color: rgb(179, 174, 174);
+}
+
+.btn{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: tomato;
+    cursor: pointer;
+}
+
+.btn{
+    border:none;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+.logout{
+    background-color: tomato;
+}
+
+.login{
+    background-color: teal;
+    margin-right: 4px;
+}
+
+.register{
+    background-color: slateblue;
+}
+
+.buttons,.logout{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
